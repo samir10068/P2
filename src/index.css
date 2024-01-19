@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* -----------------Navbar.css (CSS Styles) *//* Navbar.css (CSS Styles)----------------------- */
+.navbar {
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  z-index: 1000; /* Set a high z-index to ensure it's on top of other elements */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+/* ----------------------------------------ContactUs.css -----------------------------------*/
+.contact-us-container {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  margin: auto;
+  align-items: center;
+  max-width: 1px;
+
+}
+
+label {
+  margin-bottom: 1px;
+}
+
+input,
+textarea {
+  padding: 1px;
+  margin-bottom: 8px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+button {
+  background-color: white;
+  color: black;
+  padding: 2px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.google-map {
+     padding-bottom: 50%;
+     position: relative;
+}
+
+.google-map iframe {
+     height: 100%;
+     width: 100%;
+     left: 0;
+     top: 0;
+     position: absolute;
+}
+
+/* ----------------------------------------About.css -----------------------------------*/
+.About {
+  background-image: url('./images/pic2.jpg');
+
+  background-size: auto;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Pic1 {
+  font-size: 12.5rem;
+  font-weight: bold;
+  margin:  1rem;
+  padding: 2rem 2rem;
+}
+.AboutMessage{
+  display: inline-block;
+ padding: 1rem 1rem;
+ vertical-align: middle;
+
+}
+/* ----------------------------------------service .css-----------------------------------*/
+
+.Service {
+  background-image: url('./images/pic2.jpg');
+ 
+  background-size: auto;
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Pic2 {
+  display: inline-block;
+  font-size: 12.5rem;
+  font-weight: bold;
+  padding: 1rem 1rem;
+}
+.ServerMessage{
+  display: inline-block;
+ padding: 1rem 1rem;
+ vertical-align: middle;
+
+}
+/* ----------------------------------------Story.css-----------------------------------*/
+
+.Story {
+  background-image: url('./images/pic2.jpg');
+ 
+  background-size: auto;
+  background-color: #2ea117;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Pic3 {
+  font-size: 12.5rem;
+  font-weight: bold;
+  margin:  1rem;
+  padding: 2rem 2rem;
+}
+.StoryMessage{
+  display: inline-block;
+ padding: 1rem 1rem;
+ vertical-align: middle;
+
+}
+/* ----------------------------------------Gallery.css-----------------------------------*/
+.GalleryTitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.GalleryBox{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+  .container {
+    flex: 1; /* Distribute available space equally */
+    margin: 0 1%; /* Add some margin for spacing */
+  }
+}
+.box{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  height: 25%;
+}
